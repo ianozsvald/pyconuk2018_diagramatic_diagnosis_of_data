@@ -11933,6 +11933,18 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Have-you-ever...">Have you ever...<a class="anchor-link" href="#Have-you-ever...">&#182;</a></h1><ul>
+<li>Been asked to complete a data analysis or ML task on new data - sight unseen? Raise hands?</li>
+<li>I hypothesise that there are more engineers in this room than data scientists - show of hands?</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="We'll-cover">We'll cover<a class="anchor-link" href="#We'll-cover">&#182;</a></h1><ul>
 <li>Google Facets</li>
 <li>Pandas pivot_table and styling</li>
@@ -12094,10 +12106,10 @@ Name: age_labeled_, dtype: int64</pre>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">titanic</span><span class="p">[[</span><span class="s1">&#39;Survived&#39;</span><span class="p">,</span> <span class="s1">&#39;Pclass&#39;</span><span class="p">,</span> <span class="s1">&#39;age_labeled_&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">titanic</span><span class="p">[[</span><span class="s1">&#39;Survived&#39;</span><span class="p">,</span> <span class="s1">&#39;Pclass&#39;</span><span class="p">,</span> <span class="s1">&#39;age_labeled_&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12110,7 +12122,7 @@ Name: age_labeled_, dtype: int64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -12136,9 +12148,11 @@ Name: age_labeled_, dtype: int64</pre>
       <th>Survived</th>
       <th>Pclass</th>
       <th>age_labeled_</th>
+      <th>Age</th>
     </tr>
     <tr>
       <th>PassengerId</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -12150,60 +12164,70 @@ Name: age_labeled_, dtype: int64</pre>
       <td>0.0</td>
       <td>3</td>
       <td>Young</td>
+      <td>22.0</td>
     </tr>
     <tr>
       <th>2</th>
       <td>1.0</td>
       <td>1</td>
       <td>Young</td>
+      <td>38.0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>1.0</td>
       <td>3</td>
       <td>Young</td>
+      <td>26.0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>1.0</td>
       <td>1</td>
       <td>Young</td>
+      <td>35.0</td>
     </tr>
     <tr>
       <th>5</th>
       <td>0.0</td>
       <td>3</td>
       <td>Young</td>
+      <td>35.0</td>
     </tr>
     <tr>
       <th>6</th>
       <td>0.0</td>
       <td>3</td>
       <td>Young</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>7</th>
       <td>0.0</td>
       <td>1</td>
       <td>Over_40</td>
+      <td>54.0</td>
     </tr>
     <tr>
       <th>8</th>
       <td>0.0</td>
       <td>3</td>
       <td>Child</td>
+      <td>2.0</td>
     </tr>
     <tr>
       <th>9</th>
       <td>1.0</td>
       <td>3</td>
       <td>Young</td>
+      <td>27.0</td>
     </tr>
     <tr>
       <th>10</th>
       <td>1.0</td>
       <td>2</td>
       <td>Child</td>
+      <td>14.0</td>
     </tr>
   </tbody>
 </table>
@@ -13275,6 +13299,7 @@ Wall time: 1min 25s
 <li>A Data Story will help colleagues to understand what can be achieved with this data</li>
 <li>See my <code>Data Science Delivered</code> repo on github.com/ianozsvald</li>
 <li>Did you learn something? I love receiving postcards! Please email me and I'll send you my address</li>
+<li>Talk to me about team coaching</li>
 <li>Please try my tool - I'd love feedback: <a href="https://github.com/ianozsvald/discover_feature_relationships">https://github.com/ianozsvald/discover_feature_relationships</a></li>
 <li>Please come to a PyData event and please thank your fellow volunteers here</li>
 </ul>
