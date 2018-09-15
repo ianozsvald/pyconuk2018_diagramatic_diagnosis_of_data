@@ -1,21 +1,8 @@
-. ~/anaconda3/bin/activate pyconuk2018
+Slides from PyConUK 2018 (Cardiff) on the Diagramatic Diagnosis of Data: https://2018.hq.pyconuk.org/schedule/item/9DF1/
 
-I have titanic_train.csv
-https://pair-code.github.io/facets/
+You want to look at pyconuk2018_slides.pdf or serve up the slides with:
+`jupyter nbconvert pyconuk2018_slides.ipynb --to slides --post serve`
 
-get sklearn.datasets.load_boston
-http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html
+Note to Ian: `. ~/anaconda3/bin/activate pyconuk2018`
 
-try:
-https://www.kaggle.com/ravaliraj/titanic-data-visualization-and-ml
-WHAT DO I WANT TO DRAW?
-note that we can programmatically add features e.g. child to improve this
-
-pandas qcut label to mean target, style
-
-show pandas profiling
-
-try several single boston plots to target
-show pair plot
-show discover feature relationships
 
